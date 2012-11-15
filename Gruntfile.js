@@ -10,6 +10,8 @@
 'use strict';
 
 module.exports = function(grunt) {
+  console.log('[main, 0]'.magenta, process.argv[0]);
+  console.log('[main, 1]'.magenta, process.argv[1]);
 
   // Project configuration.
   grunt.initConfig({

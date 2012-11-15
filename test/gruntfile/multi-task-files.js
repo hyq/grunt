@@ -13,6 +13,9 @@
 'use strict';
 
 module.exports = function(grunt) {
+  console.log('[sub, 0]'.magenta, process.argv[0]);
+  console.log('[sub, 1]'.magenta, process.argv[1]);
+
   grunt.file.setBase('../fixtures/files');
 
   grunt.initConfig({
