@@ -228,8 +228,8 @@ module.exports = function(grunt) {
   });
 
   grunt.registerTask('default', [
-    // 'run',
-    // 'test:all',
+    'run',
+    'test:all',
     'run:no_files_or_options',
     'test:no_files_or_options',
     'run:dist/built.js',
@@ -238,13 +238,13 @@ module.exports = function(grunt) {
     'test:dist/built1.js',
     'run:built',
     'test:built',
-    // 'run:long1',
-    // 'test:long1',
-    // 'run:long2',
-    // 'test:long2',
-    // 'run:long3',
-    // 'test:long3',
-    // 'test:counters',
+    'run:long1',
+    'test:long1',
+    'run:long2',
+    'test:long2',
+    'run:long3',
+    'test:long3',
+    'test:counters',
   ]);
 
 };
