@@ -231,8 +231,6 @@ module.exports = function(grunt) {
   });
 
   grunt.registerTask('default', [
-    'run',
-    'test:all',
     'run:no_files_or_options',
     'test:no_files_or_options',
     'run:dist/built.js',
@@ -247,6 +245,8 @@ module.exports = function(grunt) {
     'test:long2',
     'run:long3',
     'test:long3',
+    'run',
+    'test:all',
     'test:counters',
   ]);
 
